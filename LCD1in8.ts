@@ -34,7 +34,7 @@ namespace LCD1IN8 {
 	
 	//% blockId=LCD_Clear
     //% blockGap=8
-    //% block="Clear Clear screen and cache"
+    //% block="Clear screen and cache"
     //% shim=LCD1IN8::LCD_Clear
     //% weight=195
     export function LCD_Clear(): void{
@@ -52,7 +52,7 @@ namespace LCD1IN8 {
 	
 	//% blockId=LCD_Display
     //% blockGap=8
-    //% block="Show Full Screen"
+    //% block="Send display data"
     //% shim=LCD1IN8::LCD_Display
     //% weight=190
     export function LCD_Display(): void{
@@ -61,7 +61,7 @@ namespace LCD1IN8 {
     
     //% blockId=LCD_DisplayWindows
     //% blockGap=8
-    //% block="Show Windows|Xstart %Xstart|Ystart %Ystart|Xend %Xend|Yend %Yend"
+    //% block="Show Windows display data |Xstart %Xstart|Ystart %Ystart|Xend %Xend|Yend %Yend "
     //% shim=LCD1IN8::LCD_DisplayWindows
     //% Xstart.min=1 Xstart.max=160 Ystart.min=1 Ystart.max=128
     //% Xend.min=1 Xend.max=160 Yend.min=1 Yend.max=128
