@@ -251,7 +251,8 @@ void LCD_Driver::LCD_Init()
     spiram->SPIRAM_Set_Mode(BYTE_MODE);
 
     //back light
-    LCD_BL = 1.5;
+    LCD_BL.period(0.02);
+    LCD_BL.write(0.50f);
 
     //Hardware reset
     LCD_Reset();
@@ -269,7 +270,8 @@ void LCD_Driver::LCD_Init()
 
 void LCD_Driver::LCD_SetBL(int Lev)
 {
-    LCD_BL = Lev / 100;
+    float light = (float)Lev / 10;
+    LCD_BL.write(light);
 }
 
 /********************************************************************************

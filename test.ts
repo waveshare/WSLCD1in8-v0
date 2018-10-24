@@ -1,17 +1,6 @@
-/*****************************************************************************
-* | File        :   test.ts
-* | Author      :   Waveshare team
-* | Function    :   FM25V05 DRIVER
-* | Info        :
-*----------------
-* | This version:   V1.0
-* | Date        :   2017-12-12
-* | Info        :   Basic version
-*
-******************************************************************************/
 // tests go here; this will not be compiled when this package is used as a library
 LCD1IN8.LCD_Init()
-LCD1IN8.LCD_SetBL(180)
+LCD1IN8.LCD_SetBL(10)
 LCD1IN8.LCD_Filling(LCD_COLOR.RED)
 LCD1IN8.LCD_Clear()
 LCD1IN8.DrawLine(

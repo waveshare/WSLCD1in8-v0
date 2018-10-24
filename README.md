@@ -2,7 +2,7 @@
 
 waveshare electronics
 
-![Waveshare_logo.png](Waveshare_logo.png.png)
+![Waveshare_logo.png](Waveshare_logo.png)
 
 # Package product
 https://www.waveshare.com/1.8inch-lcd-for-micro-bit.htm
