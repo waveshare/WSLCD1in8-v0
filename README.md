@@ -11,6 +11,9 @@ https://www.waveshare.com/1.8inch-lcd-for-micro-bit.htm
 Test can refer to test.ts
 
 # user
+If you find a problem with the https://makecode.microbit.org/#
+programming website, you can't download it. 
+Try https://makecode.microbit.org/v0 to edit your project.
 For reference, please refer to our user manual.
 Chinese wiki: http://www.waveshare.net/wiki/1.8inch_LCD_for_micro:bit
 English wiki: https://www.waveshare.com/wiki/1.8inch_LCD_for_micro:bit
