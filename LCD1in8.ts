@@ -1,18 +1,6 @@
-/*****************************************************************************
-* | File      	:   1in8LCD.ts
-* | Author      :   Waveshare team
-* | Function    :   Contorl 1.8inch lcd Show
-* | Info        :
-*----------------
-* | This version:   V1.0
-* | Date        :   2018-05-02
-* | Info        :   Basic version
-*
-******************************************************************************/
 let GUI_BACKGROUND_COLOR = LCD_COLOR.WHITE
 let FONT_BACKGROUND_COLOR = LCD_COLOR.WHITE
 let FONT_FOREGROUND_COLOR = LCD_COLOR.BLACK
-
 
 //% weight=20 color=#436EEE icon="\uf108"
 namespace LCD1IN8 {
@@ -38,7 +26,7 @@ namespace LCD1IN8 {
     //% shim=LCD1IN8::LCD_Clear
     //% weight=195
     export function LCD_Clear(): void{
-       return;
+        return;
     }
     
     //% blockId=LCD_Filling
@@ -91,8 +79,6 @@ namespace LCD1IN8 {
     //% blockId=DrawPoint
     //% blockGap=8
     //% block="Draw Point|x %x|y %y|Color %Color|Point Size %Dot"
-    //% x.min=1 x.max=160 y.min=1 y.max=128
-    //% Color.min=0 Color.max=65535
     //% shim=LCD1IN8::DrawPoint
     //% weight=150
     export function DrawPoint(x: number, y: number, Color: number, Dot: DOT_PIXEL): void{
