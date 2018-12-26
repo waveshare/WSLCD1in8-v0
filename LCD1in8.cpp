@@ -51,7 +51,7 @@ namespace LCD1IN8 {
 	
     //%
     void DrawPoint(int x, int y, int Color, DOT_PIXEL Dot) {
-        LCD->LCD_DrawPoint(x, y, Dot, Color);
+        LCD->LCD_DrawPoint(x, y, Color, Dot);
     }
 
     //%
